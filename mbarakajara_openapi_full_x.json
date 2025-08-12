@@ -5,7 +5,9 @@
     "version": "1.4.0",
     "description": "Acceso a datos de biodiversidad (GBIF), geoespaciales (Earth Engine, Overpass), clima (Open-Meteo), y contexto (FAOSTAT, World Bank), para diseñar y gestionar el modelo de la Fundación Mbarakajara."
   },
-  "servers": [],
+  "servers": [
+    { "url": "https://api.gbif.org/v1" }
+  ],
   "paths": {
     "/species/search": {
       "servers": [
